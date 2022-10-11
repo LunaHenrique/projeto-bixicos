@@ -1,0 +1,50 @@
+/*NAVBAR*/
+.navbar{
+    background-color: #4d73a2;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.navbar-brand{
+    width: 2%;
+    height: 2%;
+    }
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-nav{
+    background-color: #4d73a2;
+}
+
+.transicione{
+    transition: 0.3s ease-in;
+}
+/*FUNDO*/
+
+body{
+    background-size: 100% 100vh;
+    background-color: #fff !important;
+    background-image: -webkit-linear-gradient(-45deg, #d6daff  50%, #d7f55f 50%) !important;
+}
+
+/*INICIO*/
+#logo-inicio{
+    max-width: 40%;
+    margin-top: 5%;
+}
+
+.item{
+    background-color: #4d73a2;
+    border-radius: 10px;
+}
+
+.nome-do-bixo{
+    color: #fff;
+    margin: 0;
+}
+
+
