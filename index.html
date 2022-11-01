@@ -47,27 +47,33 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 text-center">
+            <div class="col-sm-6 text-center mb-2">
                 <img id="logo-inicio" class="img-fluid" src="assets/logo/logo-roxo.png" alt="Logo">
             </div>
+            <div class="col-sm-6 text-center mb-5">
+                <h2>ANIMAIS DISPONIVEIS</h2>
+                <div class="owl-carousel owl-theme ">
+                    <div class="item p-2"><img src="assets/bixinhos/bixo-1.jpg"><span class="nome-do-bixo">Jackson</span></div>
+                    <div class="item p-2"><img src="assets/bixinhos/bixo-2.jpg"><span class="nome-do-bixo">Eduardo</span></div>
+                    <div class="item p-2"><img src="assets/bixinhos/bixo-3.jpg"><span class="nome-do-bixo">Malaquias III</span></div>
+                    <div class="item p-2"><img src="assets/bixinhos/bixo-4.jpg"><span class="nome-do-bixo">Belinha</span></div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-12 text-center">
-            <h2>ANIMAIS DISPONIVEIS</h2>
-            <div class="owl-carousel owl-theme">
-                <div class="item p-2"><img src="assets/bixinhos/bixo-1.jpg"><span class="nome-do-bixo">Jackson</span></div>
-                <div class="item p-2"><img src="assets/bixinhos/bixo-2.jpg"><span class="nome-do-bixo">Eduardo</span></div>
-                <div class="item p-2"><img src="assets/bixinhos/bixo-3.jpg"><span class="nome-do-bixo">Malaquias III</span></div>
-                <div class="item p-2"><img src="assets/bixinhos/bixo-4.jpg"><span class="nome-do-bixo">Belinha</span></div>
-              </div>
+        <div class="row  mb-5">
+            <div class="col-sm-12 text-center">
+                <button type="button" class="btn btn-lg" id="botao-bixicos">Cadastrar</button>
+            </div>
         </div>
-        <div class="col-sm-12 text-center">
-            
+        <div class="row">
+            <h2 class="text-center">Encontre ONGS perto de você</h2>     
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4616.538758445899!2d-46.44119038502333!3d-23.499078984713847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce61601aec54c5%3A0x388edc7209121354!2sIFSP%20S%C3%A3o%20Miguel%20Paulista!5e1!3m2!1spt-BR!2sbr!4v1667332322474!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" ></iframe>
         </div>
     </div>
 </body>
 <footer>
     <script src="js/jquery.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="owlcarousel/owl.carousel.js"></script>
     <script src="js/bixicos/bixicos.js"></script>
 </footer>
 </html>

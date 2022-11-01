@@ -39,7 +39,7 @@ body{
 
 .item{
     background-color: #4d73a2;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .nome-do-bixo{
@@ -47,4 +47,17 @@ body{
     margin: 0;
 }
 
+#botao-bixicos{
+   background-color: #4D73A2;
+   color: #ffffff;
+   width: 80%;
+}
+
+
+/*Mapa*/
+
+#mapa{
+    width: 100%;
+    border: #000;
+}
 
